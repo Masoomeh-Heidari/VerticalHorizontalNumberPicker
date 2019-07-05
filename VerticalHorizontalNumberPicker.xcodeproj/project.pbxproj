@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5506777722CFBB2500BCB01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506777622CFBB2500BCB01D /* AppDelegate.swift */; };
+		5506777922CFBB2500BCB01D /* VerticalNumberPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506777822CFBB2500BCB01D /* VerticalNumberPickerViewController.swift */; };
+		5506777C22CFBB2500BCB01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5506777A22CFBB2500BCB01D /* Main.storyboard */; };
+		5506777E22CFBB2700BCB01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5506777D22CFBB2700BCB01D /* Assets.xcassets */; };
+		5506778122CFBB2700BCB01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5506777F22CFBB2700BCB01D /* LaunchScreen.storyboard */; };
+		5506778922CFBB6E00BCB01D /* HorizontallNumberPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506778822CFBB6E00BCB01D /* HorizontallNumberPickerViewController.swift */; };
+		5506778D22CFBBA900BCB01D /* HorizontalNumberPickerLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506778B22CFBBA900BCB01D /* HorizontalNumberPickerLineCell.swift */; };
+		5506778E22CFBBA900BCB01D /* HorizontalNumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506778C22CFBBA900BCB01D /* HorizontalNumberPicker.swift */; };
+		5506779122CFBC6400BCB01D /* VerticalNumberPickerLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506778F22CFBC6400BCB01D /* VerticalNumberPickerLineCell.swift */; };
+		5506779222CFBC6400BCB01D /* VerticalNumberPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506779022CFBC6400BCB01D /* VerticalNumberPicker.swift */; };
+		5506779622CFBE0800BCB01D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506779522CFBE0800BCB01D /* UIView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5506777322CFBB2500BCB01D /* VerticalHorizontalNumberPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalHorizontalNumberPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5506777622CFBB2500BCB01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5506777822CFBB2500BCB01D /* VerticalNumberPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalNumberPickerViewController.swift; sourceTree = "<group>"; };
+		5506777B22CFBB2500BCB01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5506777D22CFBB2700BCB01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5506778022CFBB2700BCB01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5506778222CFBB2700BCB01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5506778822CFBB6E00BCB01D /* HorizontallNumberPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallNumberPickerViewController.swift; sourceTree = "<group>"; };
+		5506778B22CFBBA900BCB01D /* HorizontalNumberPickerLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalNumberPickerLineCell.swift; sourceTree = "<group>"; };
+		5506778C22CFBBA900BCB01D /* HorizontalNumberPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalNumberPicker.swift; sourceTree = "<group>"; };
+		5506778F22CFBC6400BCB01D /* VerticalNumberPickerLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalNumberPickerLineCell.swift; sourceTree = "<group>"; };
+		5506779022CFBC6400BCB01D /* VerticalNumberPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalNumberPicker.swift; sourceTree = "<group>"; };
+		5506779522CFBE0800BCB01D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5506777022CFBB2500BCB01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5506776A22CFBB2500BCB01D = {
+			isa = PBXGroup;
+			children = (
+				5506777522CFBB2500BCB01D /* VerticalHorizontalNumberPicker */,
+				5506777422CFBB2500BCB01D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5506777422CFBB2500BCB01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5506777322CFBB2500BCB01D /* VerticalHorizontalNumberPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5506777522CFBB2500BCB01D /* VerticalHorizontalNumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5506778A22CFBBA900BCB01D /* NumberPicker */,
+				5506779922CFCB3000BCB01D /* View Controllers */,
+				5506779422CFBD7F00BCB01D /* Storyboards */,
+				5506779322CFBD7100BCB01D /* Resources */,
+				5506779522CFBE0800BCB01D /* UIView+Extension.swift */,
+			);
+			path = VerticalHorizontalNumberPicker;
+			sourceTree = "<group>";
+		};
+		5506778A22CFBBA900BCB01D /* NumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5506779022CFBC6400BCB01D /* VerticalNumberPicker.swift */,
+				5506778F22CFBC6400BCB01D /* VerticalNumberPickerLineCell.swift */,
+				5506778B22CFBBA900BCB01D /* HorizontalNumberPickerLineCell.swift */,
+				5506778C22CFBBA900BCB01D /* HorizontalNumberPicker.swift */,
+			);
+			path = NumberPicker;
+			sourceTree = "<group>";
+		};
+		5506779322CFBD7100BCB01D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5506777622CFBB2500BCB01D /* AppDelegate.swift */,
+				5506777D22CFBB2700BCB01D /* Assets.xcassets */,
+				5506778222CFBB2700BCB01D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5506779422CFBD7F00BCB01D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5506777A22CFBB2500BCB01D /* Main.storyboard */,
+				5506777F22CFBB2700BCB01D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5506779922CFCB3000BCB01D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5506777822CFBB2500BCB01D /* VerticalNumberPickerViewController.swift */,
+				5506778822CFBB6E00BCB01D /* HorizontallNumberPickerViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5506777222CFBB2500BCB01D /* VerticalHorizontalNumberPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5506778522CFBB2700BCB01D /* Build configuration list for PBXNativeTarget "VerticalHorizontalNumberPicker" */;
+			buildPhases = (
+				5506776F22CFBB2500BCB01D /* Sources */,
+				5506777022CFBB2500BCB01D /* Frameworks */,
+				5506777122CFBB2500BCB01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalHorizontalNumberPicker;
+			productName = VerticalHorizontalNumberPicker;
+			productReference = 5506777322CFBB2500BCB01D /* VerticalHorizontalNumberPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5506776B22CFBB2500BCB01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Fariba Heidari";
+				TargetAttributes = {
+					5506777222CFBB2500BCB01D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5506776E22CFBB2500BCB01D /* Build configuration list for PBXProject "VerticalHorizontalNumberPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5506776A22CFBB2500BCB01D;
+			productRefGroup = 5506777422CFBB2500BCB01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5506777222CFBB2500BCB01D /* VerticalHorizontalNumberPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5506777122CFBB2500BCB01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5506778122CFBB2700BCB01D /* LaunchScreen.storyboard in Resources */,
+				5506777E22CFBB2700BCB01D /* Assets.xcassets in Resources */,
+				5506777C22CFBB2500BCB01D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5506776F22CFBB2500BCB01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5506778E22CFBBA900BCB01D /* HorizontalNumberPicker.swift in Sources */,
+				5506778D22CFBBA900BCB01D /* HorizontalNumberPickerLineCell.swift in Sources */,
+				5506779622CFBE0800BCB01D /* UIView+Extension.swift in Sources */,
+				5506777922CFBB2500BCB01D /* VerticalNumberPickerViewController.swift in Sources */,
+				5506777722CFBB2500BCB01D /* AppDelegate.swift in Sources */,
+				5506779122CFBC6400BCB01D /* VerticalNumberPickerLineCell.swift in Sources */,
+				5506778922CFBB6E00BCB01D /* HorizontallNumberPickerViewController.swift in Sources */,
+				5506779222CFBC6400BCB01D /* VerticalNumberPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5506777A22CFBB2500BCB01D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5506777B22CFBB2500BCB01D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5506777F22CFBB2700BCB01D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5506778022CFBB2700BCB01D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5506778322CFBB2700BCB01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5506778422CFBB2700BCB01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5506778622CFBB2700BCB01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/VerticalHorizontalNumberPicker/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VerticalHorizontalNumberPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5506778722CFBB2700BCB01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/VerticalHorizontalNumberPicker/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VerticalHorizontalNumberPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5506776E22CFBB2500BCB01D /* Build configuration list for PBXProject "VerticalHorizontalNumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5506778322CFBB2700BCB01D /* Debug */,
+				5506778422CFBB2700BCB01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5506778522CFBB2700BCB01D /* Build configuration list for PBXNativeTarget "VerticalHorizontalNumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5506778622CFBB2700BCB01D /* Debug */,
+				5506778722CFBB2700BCB01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5506776B22CFBB2500BCB01D /* Project object */;
+}
