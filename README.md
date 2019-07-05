@@ -2,4 +2,4 @@
  
 Inspired From https://github.com/yashthaker7/NumberPicker
 
-For usage download project and see Sample codes
+For usage download project and review sample codes
